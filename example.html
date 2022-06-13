@@ -1,0 +1,25 @@
+
+Write a boolean expression using conditional operators, relational operators, and logical operators in an algorithmic language
+Programming language: C++
+
+    int main()
+    {
+        setlocale(LC_ALL,"eng");
+        double x=0, y=0;
+        bool f;
+        printf("Type X\n");
+        scanf ("%lf", &x);
+        printf("Type Y\n");
+        scanf ("%lf", &y);
+        f=(((y<=2)&(x>=-2)&(x<=y-2))|((y<=2)&(x<=2)&(y>=-x+2)));
+        switch(f)
+        {
+        case 1:
+            printf("Point in shaded area  ");
+            break;
+        case 0:
+            printf("Point not in shaded area ");
+            break;
+        }
+        return 0;
+    }
