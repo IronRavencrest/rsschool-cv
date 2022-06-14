@@ -1,0 +1,112 @@
+body
+{
+    background: lightslategrey;
+    max-width: 900px;
+    min-width: 320px;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+.conteiner
+{
+    background:white;
+    box-shadow: 0 0 50px black;
+    margin: 0 auto;
+    display: flex;
+    padding: 5px;
+    background-clip: content-box;
+}
+
+a
+{
+    font-size: 18px;
+    color: Black;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: blue;
+}
+
+.me
+{
+    
+    width: 250px;
+    padding: 15px;
+    background: rgba(184, 178, 145, 0.384);
+    border: 5px solid black;
+    
+}
+
+.me2
+{
+    background: white;
+    text-align: justify;
+    width: 700px;
+    padding: 15px;
+    float: right;
+    border-top: 5px solid black;;
+    border-right: 5px solid black;;
+    border-bottom: 5px solid black;;
+}
+
+.image
+{
+    width: 200px;
+    border-radius: 2px solid black;
+}
+
+.mycode, .mycode + label ~ div 
+{
+    display: none; 
+}
+
+.mycode + label,
+.mycode:checked + label 
+{
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.mycode:checked + label 
+{
+    color: red;
+}
+
+.mycode:checked + label + div 
+{
+    display: block; 
+    background: #efefef;
+    box-shadow: inset 3px 3px 10px #7d8e8f;
+    padding-left: 10px; 
+}
+
+
+.gitprofile
+{
+    padding-right: 180px;
+    font-size: 100px;
+}
+
+.cont
+{
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style-type: none;
+    font-size: 19px;
+}
+
+.rsimage
+{
+    width: 300px;
+    float: right;
+}
+
+.date
+{
+    font-size: 30px;
+    margin: 0;
+    float: right;
+}
