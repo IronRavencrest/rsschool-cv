@@ -1,30 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
         <head>
+            
             <meta charset="UTF-8">
             <title>CV</title>
             <link rel="stylesheet" href="style.css">
+            <script src="https://kit.fontawesome.com/7317d70174.js" crossorigin="anonymous"></script>
         </head>
+<div class="conteiner" >
     <body>
-
+        
         <section class="me">
-            <img src="assets/img/111.png" alt="Aital Maximov" class="image">
+            <img src="assets/img/face.png" alt="Aital Maximov"  class="image">
             <h1>Aital Maximov</h1>
+
             <h2>Contact Information</h2>
-                <p>Discord:</p>
-                <p>Ravencrest#3042</p>
-                <hr>
-                <p>E-mail:</p>
-                <p>silverfga@gmail.com </p>
-                <hr>
-                <p><a href="https://vk.com/id356092151">VK.com</a></p>
-        </section>
+            <span>  
+                <ul class="cont">
+                    <li><i class="fa-brands fa-discord"></i> &nbsp;Ravencrest#3042 </li>
+                    <hr>
+                    <li><i class="fa-solid fa-envelope"> </i> &nbsp; silverfga@gmail.com</li>
+                    <hr>
+                    <li><i class="fa-brands fa-vk"></i><a  href="https://vk.com/id356092151"> &nbsp; My profile</a></i></li>
+                    <hr>
+                </ul>
+            </span>
+
+                </section>     
+
         <section class="me2">
+            
             <h2>About me</h2>
             <p>I'm 24 years old, currently a fourth-year student of St. Petersburg University of Management Technologies and Economics (UMTE). </p>
             <p>Since highschool I've been fond of programming, so I'm always looking for new ways to gain knowledge in this area, that's why I'm here today. I see front-end development as a new way to gain skills and an opportunity to find a suitable job.</p>
             <hr>
-            
             
             <h2>My strengths:</h2>
             <ul>
@@ -58,8 +67,43 @@
                 <li>Visual Studio Code</li>
             </ul>
             <hr>
-            <h2><a href="example.html">Code Example</a></h2>
+
+            <input class="mycode" id="c1" type="checkbox" >
+            <label for="c1">Code Example</label>
+             <div>
+                <pre>                  
+Write a boolean expression using conditional operators, 
+relational operators, 
+and logical operators in an algorithmic 
+language
+
+Programming language: C++
+            
+int main()
+{
+    setlocale(LC_ALL,"eng");
+    double x=0, y=0;
+    bool f;
+    printf("Type X\n");
+    scanf ("%lf", &x);
+    printf("Type Y\n");
+    scanf ("%lf", &y);
+    f=(((y<=2)&(x>=-2)&(x<=y-2))|((y<=2)&(x<=2)&(y>=-x+2)));
+    switch(f)
+    {
+    case 1:
+        printf("Point in shaded area  ");
+        break;
+    case 0:
+        printf("Point not in shaded area ");
+        break;
+    }
+    return 0;
+}                   
+                </pre>         
+            </div>
             <hr>
+            
             <h2>Courses</h2>
             <ul>
                 <li>Incheon English Village (ICEV). - 2014</li>
@@ -72,7 +116,18 @@
                 <li>Russian: Native</li>
                 <li>Yakut: Native</li>
             </ul>
-            
+                <footer>
+                    <table>
+                        <tr>
+                            <td><a class="gitprofile" href="https://github.com/IronRavencrest"><i class="fa-brands fa-github-square"></i> </a></td>
+                            <td> <a href="https://rs.school/js-stage0/"><img class="rsimage" src="/assets/img/rs_school.png" alt="rs"></a></td>
+                        </tr>
+                    </table>
+                    <p class="date">2022</p>
+                </footer> 
+                
+            </footer>
         </section>
+    </div>
     </body>
 </html>
