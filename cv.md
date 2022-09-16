@@ -1,53 +1,38 @@
-# Aital Maximov
-###Contact Information
+#Postnikova Sandaara
 
-Phone number: +79819129150
-E-mail: silverfga@gmail.com
-Vk.com: https://vk.com/id356092151
+####Junior Frontend Developer
+---
+Contact information:
+Phone: +7 924 8655018
+E-mail: sandaarap@mail.ru
+Telegram: @sandaarapostikova
+[GitHub](https://github.com/iSandy98)
 
-###About myself
-I'm a third-year student of St. Petersburg University of Management Technologies and Economics (UMTE). 
-###Skills
-Upper-intermediate in:
-* C++, C, Java, HTML
-* Blender, Adobe Photoshop
-* Git, Github
-* CodeBlocks, ArisExpress, Oracle VM VirtualBox, 1C
+---
+####About Myself
+I am a first-year student of NEFU and I am beginner for IT, but i have a great desire to learn and develop in the field of programming, because it is interesting. That`s why I signed up for the JavaScript course. My goal is to gain knowledge in the field of front-end development.
 
-Novice in:
-* JavaScript Basics and Visual Studio Code
+My strengths:
+* Hard-working
+* team playing 
+* stress-resistant
+* diligence
+* fast learner 
+* >still in progress...
+---
+####Skills
+1. HTML, CSS
+2. JavaScript basic 
+3. Git, GitHub
+4. VS Code
 
-###Code Example:
-#####Write a boolean expression using conditional operators, relational operators, and logical operators in an algorithmic language
-######Programming language: C++
+####Code Example 
+>console.log("Hello, World!");
 
-int main()
-{
-    setlocale(LC_ALL,"eng");
-    double x=0, y=0;
-    bool f;
-    printf("Type Х\n");
-    scanf ("%lf", &x);
-    printf("Type Y\n");
-    scanf ("%lf", &y);
-    f=(((y<=2)&(x>=-2)&(x<=y-2))|((y<=2)&(x<=2)&(y>=-x+2)));
-    switch(f)
-    {
-    case 1:
-        printf("Point in shaded area  ");
-        break;
-    case 0:
-        printf("Point not in shaded area ");
-        break;    
-    }
-    return 0;
-}
+####Courses 
+RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
 
-
-###Courses
-RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
-
-###Languages 
-* English: Intermediate (CEFR B1)
-* Russian: Native
-* Yakut: Native
+####Languages
+* English - pre-intermediate(B2 in progress)
+* Russian - native speaker
+* Yakut - native speaker
